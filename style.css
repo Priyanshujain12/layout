@@ -1,0 +1,52 @@
+header{
+    background-color:rgb(31, 31, 245);
+    color:white;
+    padding:15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    background-color:rgb(31, 31, 245);
+    color:white;
+    padding:10px;
+}
+p{
+    font-size:22px;
+    font-weight:bold;    
+}
+* {
+    box-sizing: border-box;
+    font-family:"sofia";
+    }
+body {
+    margin:0;
+ 
+}
+.column {
+    float: left;
+    padding: 3px;
+}
+.column.side {
+    width: 25%;
+    padding:0px;
+}
+.column.middle {
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+ul {
+    list-style-type: none;
+    padding: 15px;
+    background-color:rgb(156,94,11);
+}
+ul > li{
+    margin:15px;
+    padding:10px;
+    background-color:rgb(45,41,241);
+}
+li{
+    color:white;
+}
